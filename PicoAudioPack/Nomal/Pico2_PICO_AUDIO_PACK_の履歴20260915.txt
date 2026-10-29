@@ -1,0 +1,8 @@
+Pico2_PICOAUDIOPACK_の履歴20260915
+
+無改造状態のFFT測定結果
+
+測定条件
+SB-1240改にてループバック測定
+WAVEGENE・WAVESPECTRAを使用(24bit 96KHz)
+RMS-10DB入力時(-3db)　300回平均値 Windows出力100/100　入力63/100

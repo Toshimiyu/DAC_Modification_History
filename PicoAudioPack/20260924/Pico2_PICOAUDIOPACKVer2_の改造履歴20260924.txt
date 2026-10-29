@@ -1,0 +1,13 @@
+Pico2_PICOAUDIOPACKVer2_の改造履歴20260924
+
+変更履歴　
+Ver1.
+Pico2側VSYS/GND間にX7R10μF+C0G0.1μF追加、PicoAudioPack側のLDO入力部にX7R10μF+C0G0.1μF追加、LPF定数C2200pF→1200pFへ変更
+
+Ver2.
+PicoAudioPack側のLDO入力部にPLMCAP1μF追加、AVDD/GND間にC0G0.1μF追加、CVDD/GND間にC0G0.1μF追加
+
+測定条件
+SB-1240改にてループバック測定
+WAVEGENE・WAVESPECTRAを使用(24bit 96KHz)
+RMS-10DB入力時(-3db)　300回平均値 Windows出力100/100　入力63/100
